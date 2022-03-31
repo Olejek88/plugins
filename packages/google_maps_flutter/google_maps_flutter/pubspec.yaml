@@ -21,9 +21,12 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_plugin_android_lifecycle: ^2.0.1
+
   google_maps_flutter_platform_interface:
-    path:
-      ../google_maps_flutter_platform_interface
+    git:
+      url: https://github.com/Olejek88/plugins.git
+      ref: premium_ground_overlay
+      path: packages/google_maps_flutter/google_maps_flutter_platform_interface/
 
 dev_dependencies:
   flutter_test:
